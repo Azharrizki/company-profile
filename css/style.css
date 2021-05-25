@@ -1062,7 +1062,7 @@ ul {
 }
 
 .profiles {
-  background-image: url(../image/bg-1.png);
+  background-image: url(./image/bg-1.png);
   padding: 3rem;
   color: #9d1ed8;
   position: relative;
@@ -1168,7 +1168,7 @@ ul {
 
 
   .profiles {
-    background-image: url(../image/bg-1.png);
+    background-image: url(./image/bg-1.png);
     padding: 1rem;
     color: #9d1ed8;
     position: relative;
@@ -1238,7 +1238,7 @@ ul {
   }
 
   .profiles {
-    background-image: url(../image/bg-1.png);
+    background-image: url(./image/bg-1.png);
     padding: 1rem;
     padding-top: 40px;
     color: #9d1ed8;
