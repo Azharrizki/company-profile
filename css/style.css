@@ -1062,7 +1062,7 @@ ul {
 }
 
 .profiles {
-  background-image: url(/image/bg-1.png);
+  background-image: url("../image/bg-1.png");
   padding: 3rem;
   color: #9d1ed8;
   position: relative;
@@ -1080,7 +1080,7 @@ ul {
   position: absolute;
   top: 0;
   left: 0;
-  background: url(/image/attribute-1.png) no-repeat scroll left bottom / contain;
+  background: url("../image/attribute-1.png") no-repeat scroll left bottom / contain;
 }
 
 .profile-img img {
@@ -1096,7 +1096,7 @@ ul {
 .profile-img::after {
   content: "";
   display: block;
-  background-image: url(/image/attribute-2.png);
+  background-image: url("../image/attribute-2.png");
   width: 100%;
   height: 100%;
   position: absolute;
@@ -1168,7 +1168,7 @@ ul {
 
 
   .profiles {
-    background-image: url(/image/bg-1.png);
+    background-image: url("../image/bg-1.png");
     padding: 1rem;
     color: #9d1ed8;
     position: relative;
@@ -1187,7 +1187,7 @@ ul {
     position: absolute;
     top: 0;
     left: 0;
-    background: url(/image/attribute-1.png) no-repeat scroll left bottom / contain;
+    background: url("../image/attribute-1.png") no-repeat scroll left bottom / contain;
   }
 
   .section-title h4 {
@@ -1238,7 +1238,7 @@ ul {
   }
 
   .profiles {
-    background-image: url(/image/bg-1.png);
+    background-image: url("../image/bg-1.png");
     padding: 1rem;
     padding-top: 40px;
     color: #9d1ed8;
@@ -1256,7 +1256,7 @@ ul {
     position: absolute;
     top: 0;
     left: 0;
-    background: url(/image/attribute-1.png) no-repeat scroll left bottom / contain;
+    background: url("../image/attribute-1.png") no-repeat scroll left bottom / contain;
   }
 
   .section-title h3 {
