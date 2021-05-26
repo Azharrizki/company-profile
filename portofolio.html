@@ -58,13 +58,13 @@
                         <a class="nav-link" href="produk.html">Produk </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" data-scroll-nav="2" href="service.html">Service</a>
+                        <a class="nav-link" href="service.html">Service</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" data-scroll-nav="3" href="news.html">News</a>
+                        <a class="nav-link" href="news.html">News</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" data-scroll-nav="4" href="contact.html">Contact</a>
+                        <a class="nav-link" href="contact.html">Contact</a>
                     </li>
             </div>
         </div>
@@ -74,27 +74,67 @@
 
     <!-- Portofolio -->
     <section class="section-padding mt-3">
-        <div class="container">
+        < class="container">
             <div class="row section-title">
-                <div class="col text-left py-3">
-                    <h2 class="title-center1 font-weight-bold">Portofolio</h2>
+                <div class="col text-left pt-5 pt-md-3">
+                    <h2 class="title-center1 font-weight-bold">
+                        <span>
+                            Portofolio
+                        </span>
+                    </h2>
                 </div>
             </div>
             <div class="row">
-                <div class="port-card">
+                <div class="produk-filter">
+                    <button type="button" title="Show All Works" class="produk-filter-btn active"
+                        data-filter="all">All</button>
+                    <button type="button" title="Filter by Front-End" class="produk-filter-btn"
+                        data-filter="mobile">Mobile</button>
+                    <button type="button" title="Filter by Back-End" class="produk-filter-btn"
+                        data-filter="website">Website</button>
+                </div>
+            </div>
+            <div class="row">
+                <div class="port-card my-5 my-md-4" data-category="mobile">
                     <div class="port-img">
                         <img src="image/produk.png" alt="">
                     </div>
                     <div class="port-content">
-                        <div class="port-title">Project</div>
-                        <div class="port-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit optio
+                        <div class="port-title">Aplikasi Juru Tani</div>
+                        <div class="port-text text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Velit optio
+                            voluptas dicta ullam quia et nihil blanditiis. Ab, neque? Mollitia ad aliquid doloribus
+                            commodi non corrupti natus, neque eaque minima!</div>
+                        <a href="">Read More</a>
+                    </div>
+                </div>
+                <div class="port-card my-5 my-md-4" data-category="mobile">
+                    <div class="port-img">
+                        <img src="image/produk2.png" alt="">
+                    </div>
+                    <div class="port-content">
+                        <div class="port-title">Aplikasi Juru Tani</div>
+                        <div class="port-text text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Velit optio
+                            voluptas dicta ullam quia et nihil blanditiis. Ab, neque? Mollitia ad aliquid doloribus
+                            commodi non corrupti natus, neque eaque minima!</div>
+                        <a href="">Read More</a>
+                    </div>
+                </div>
+                <div class="port-card my-5 my-md-4">
+                    <div class="port-img">
+                        <img src="image/produk.png" alt="">
+                    </div>
+                    <div class="port-content">
+                        <div class="port-title">Aplikasi Juru Tani</div>
+                        <div class="port-text text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Velit optio
                             voluptas dicta ullam quia et nihil blanditiis. Ab, neque? Mollitia ad aliquid doloribus
                             commodi non corrupti natus, neque eaque minima!</div>
                         <a href="">Read More</a>
                     </div>
                 </div>
             </div>
-        </div>
     </section>
     <!-- end of Portofolio -->
 
