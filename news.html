@@ -17,6 +17,8 @@
     <!-- main css-->
     <link rel='stylesheet' href='css/style.css'>
     <link rel='stylesheet' href='css/produk.css'>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
 </head>
 
 <body>
@@ -73,9 +75,9 @@
     <!-- Navbar terakhir-->
 
     <!-- News -->
-    <section class="section-margin pt-5 ">
+    <section class="section-margin2 pt-5">
         <div class="container">
-            <div class="row py-3 py-md-0">
+            <div class="row pb-md-1 pb-0">
                 <div class="col-12 col-md-8">
                     <div class="title-header">
                         <h2 class="font-weight-bolder pb-2">Apa yang baru di Sunhouse Digital ?</h2>
@@ -86,14 +88,14 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col">
+                <div class="col pb-md-4 pb-2">
                     <form>
                         <div class="form-row align-items-center">
-                            <div class="col-auto">
+                            <div class="col-md-auto col-8">
                                 <input type="text" class="form-control border-secondary mb-2 p-4 rounded-pill"
                                     id="inlineFormInput" placeholder="Search Blog Post . . .">
                             </div>
-                            <div class="col-auto my-2 my-md-2">
+                            <div class="col-md-auto col-4 my-2 my-md-2">
                                 <button type="submit" class="btn-search mb-2">Search</button>
                             </div>
                         </div>
@@ -167,6 +169,8 @@
     </section>
     <!-- end of News Card -->
 
+
+
     <!-- News-content -->
     <section>
         <div class="container">
@@ -177,7 +181,7 @@
                             <div class="news-img">
                                 <img src="image/news-1.png" alt="">
                             </div>
-                            <h3 class="news-title">Lorem ipsum dolor sit amet, consectetur
+                            <h3 class="news-title text-justifiy">Lorem ipsum dolor sit amet, ectetur
                                 dolor sit </h3>
                             <small class="news-desc text-secondary">Technology / 29 Mei 2021</small>
                         </a>
@@ -187,7 +191,7 @@
                             <div class="news-img">
                                 <img src="image/news-2.png" alt="">
                             </div>
-                            <h3 class="news-title">Lorem ipsum dolor sit amet, consectetur
+                            <h3 class="news-title text-justifiy">Lorem ipsum dolor sit amet, ectetur
                                 dolor sit </h3>
                             <small class="news-desc text-secondary">Technology / 29 Mei 2021</small>
                         </a>
@@ -197,7 +201,7 @@
                             <div class="news-img">
                                 <img src="image/news-3.png" alt="">
                             </div>
-                            <h3 class="news-title">Lorem ipsum dolor sit amet, consectetur
+                            <h3 class="news-title text-justifiy">Lorem ipsum dolor sit amet, ectetur
                                 dolor sit </h3>
                             <small class="news-desc text-secondary">Technology / 29 Mei 2021</small>
                         </a>
@@ -207,7 +211,7 @@
                             <div class="news-img">
                                 <img src="image/news-4.png" alt="">
                             </div>
-                            <h3 class="news-title">Lorem ipsum dolor sit amet, consectetur
+                            <h3 class="news-title text-justifiy">Lorem ipsum dolor sit amet, ectetur
                                 dolor sit </h3>
                             <small class="news-desc text-secondary">Technology / 29 Mei 2021</small>
                         </a>
@@ -217,7 +221,7 @@
                             <div class="news-img">
                                 <img src="image/news-1.png" alt="">
                             </div>
-                            <h3 class="news-title">Lorem ipsum dolor sit amet, consectetur
+                            <h3 class="news-title text-justifiy">Lorem ipsum dolor sit amet, ectetur
                                 dolor sit </h3>
                             <small class="news-desc text-secondary">Technology / 29 Mei 2021</small>
                         </a>
@@ -227,6 +231,28 @@
         </div>
     </section>
     <!-- end of News-content -->
+
+    <section class="my-4">
+        <nav aria-label="Page navigation example">
+            <ul class="pagination justify-content-center">
+                <li class="page-item">
+                    <a class="page-link" href="#" aria-label="Previous">
+                        <span aria-hidden="true">&laquo;</span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                </li>
+                <li class="page-item"><a class="page-link" href="#">1</a></li>
+                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                <li class="page-item">
+                    <a class="page-link" href="#" aria-label="Next">
+                        <span aria-hidden="true">&raquo;</span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </section>
 
     <!--Footernya SHD-->
     <footer class="footer">
@@ -300,6 +326,9 @@
 
     <!-- popper js-->
     <script src='js/popper.min.js'></script>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 
     <!-- bootstrap js-->
     <script src='js/bootstrap.min.js'></script>
